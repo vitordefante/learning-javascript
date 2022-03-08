@@ -1,15 +1,9 @@
-Variaveis em JavaScript 💻
+-- Variaveis em JavaScript 💻 --
 
+Regras para identificadores de variaveis
 
-Regras para identificadores
-
-Nao podem comecar com numeros
-Pode ascentos
-Nao pode espaco
-Pode comecar com $, _ ou qualquer letra
-Pode usar acento e simbolos
-
-
-
-
-
+* Nao podem comecar com numeros
+* Podem conter acentos
+* Nao pode conter espacos
+* Podem comecar com $, _ ou qualquer letra
+* Pode usar acento e simbolos
