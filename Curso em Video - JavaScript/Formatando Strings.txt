@@ -1,0 +1,11 @@
+Formatacao de strings em JavaScript
+
+Para inserir uma string com formatacao, utiliza-se a `crase`
+
+Exemplo:
+
+var nome = "Joao"
+console.log(`Parabens ${nome}, tenha um otimo dia!`)
+
+
+

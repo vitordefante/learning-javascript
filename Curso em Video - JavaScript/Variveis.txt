@@ -1,0 +1,15 @@
+Variaveis em JavaScript 💻
+
+
+Regras para identificadores
+
+Nao podem comecar com numeros
+Pode ascentos
+Nao pode espaco
+Pode comecar com $, _ ou qualquer letra
+Pode usar acento e simbolos
+
+
+
+
+

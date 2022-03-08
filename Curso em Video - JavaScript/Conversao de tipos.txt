@@ -1,0 +1,5 @@
+Para converter um input para Integer no JavaScript utiliza-se 3 principais formas.
+
+1. parseInt(dado)
+2. parseFloat(dado)
+3. number(dado)
