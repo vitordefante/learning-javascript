@@ -1,9 +1,10 @@
-Operadores em JavaScript
-
+Operadores em JavaScript 💻
 Os operadores da linguagem a serem visto nessa aula sao os Aritimeticos, de atribuicao, ternarios, logicos, relacionais.
 
-Os operadores aritimeticos sao aqueles que efetuam calculos matematicos, operacoes como contatenacao, etc.
-Na linguagem esses operadores sao:
+
+Operadores aritimeticos ➰
+Sao aqueles que efetuam calculos matematicos, operacoes comocontatenacao, etc.
+Os operadores aritimeticos sao:
 
 + Soma/Concatenacao
 - Subtracao
@@ -13,11 +14,62 @@ Na linguagem esses operadores sao:
 ** Potenciacao / Elevado a...
 
 Ordem de precedencia:
-()
-**
-* / %
-+ -
+1. ()
+2. **
+3. * / %
+4. + -
 
 Toda oprecacao/numero entre parenteses sera executada primeiro, apos isso, as potenciacoes serao executadas. A multiplicacao, divisao e resto da dividao
 possuem a mesma ordem de precedencia, e serao executadas na ordem do codigo caso haja intrucoes para mais de uma delas. Por ultimo sao
 efetuadas as somas e as subtracoes.
+
+
+Operadores relacionais ➰
+Toda operacao com um operador relacional tem como resultado um boolean.
+Exemplo: 5 > 5 = true
+Os operadores relacionais sao:
+
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== igual 
+!= diferente
+
+
+ Operadores logicos ➰
+ ! Negacao: a expressao e falsa. Equivalente ao "not" no python
+ && conjuncao se os dois ou mais lados da expressao forem verdadeiros = true, caso contrario, false. Equivalente ao "and" no python
+ || Analisa se alguma parte da expressao e verdadeira. Equivalente ao "or" do python
+
+ Exemplos de uso:
+
+var x = 1
+var y = 2
+var a = 3
+var b = 4
+
+
+Operadores ternarios ➰
+Os operadores ternarios identificam se a determinada condicao e verdadeira, caso seja, aplica um resultado, caso nao, aplica outro.
+Os operadores sao:
+? se a condicao for verdadeira...
+: se a condicao for falsa...
+
+Exemplos de uso:
+
+var media = 8
+media => 8 ? 'Aprovado' : 'Reprovado'
+'Aprovado'
+
+
+Ordem de precedencia durante uma expressao com operadores:
+
+1. Operadores aritimeticos ((), **, /, etc...)
+2. Opredores relacionais (>, <, >=, etc...)
+3. Operadores logicos:
+    1. !
+    2. &&
+    3. ||
+
+
