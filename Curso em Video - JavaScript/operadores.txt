@@ -1,0 +1,23 @@
+Operadores em JavaScript
+
+Os operadores da linguagem a serem visto nessa aula sao os Aritimeticos, de atribuicao, ternarios, logicos, relacionais.
+
+Os operadores aritimeticos sao aqueles que efetuam calculos matematicos, operacoes como contatenacao, etc.
+Na linguagem esses operadores sao:
+
++ Soma/Concatenacao
+- Subtracao
+* Multiplicacao
+/ Divisao real
+% Sobra da divisao
+** Potenciacao / Elevado a...
+
+Ordem de precedencia:
+()
+**
+* / %
++ -
+
+Toda oprecacao/numero entre parenteses sera executada primeiro, apos isso, as potenciacoes serao executadas. A multiplicacao, divisao e resto da dividao
+possuem a mesma ordem de precedencia, e serao executadas na ordem do codigo caso haja intrucoes para mais de uma delas. Por ultimo sao
+efetuadas as somas e as subtracoes.
