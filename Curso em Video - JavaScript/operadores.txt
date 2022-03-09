@@ -49,6 +49,14 @@ var y = 2
 var a = 3
 var b = 4
 
+x < y && var y > x == true
+x > y &&
+y > x == false
+
+a < b || b < a == true 
+a > b || b < a == false 
+
+
 
 Operadores ternarios ➰
 Os operadores ternarios identificam se a determinada condicao e verdadeira, caso seja, aplica um resultado, caso nao, aplica outro.

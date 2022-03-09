@@ -1,0 +1,7 @@
+Selecionando elementos no DOM
+
+Por marca: getElementsByTagName()
+Por ID: getElementById()
+Por nome: getElementsByName()
+Por classe:  getElementsByClassName()
+Por seletor: querySelector() or querySelectorAll()
