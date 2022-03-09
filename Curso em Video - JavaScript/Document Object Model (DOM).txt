@@ -1,7 +1,4 @@
-Selecionando elementos no DOM
+O que é o DOM?
 
-Por marca: getElementsByTagName()
-Por ID: getElementById()
-Por nome: getElementsByName()
-Por classe:  getElementsByClassName()
-Por seletor: querySelector() or querySelectorAll()
+DOM é um acrônimo para "Document Objet model", que sao os objetos que representam a estrutura
+e o conteúdo de um documento na web.
