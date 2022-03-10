@@ -8,20 +8,27 @@
     <title>Eventos DOM</title>
 </head>
 <body>
-    <div id="area" onclick="click()" onmouseenter="entrar()">
+    <div id="area" onclick="click()" onmouseenter="enter()" onmouseleave="leave()">
         Hey, hello!
     </div>
 
-    <script>
+
+    <script>    
         var area = window.document.getElementById('area')
 
-        function click () {
+        function click () { 
             area.innerText = 'You have clicked!'
         }
 
-        function entrar() {
-            area.innerText = 'Entrou'
+        function enter() {
+            area.innerText = 'You entered your mouse'
+            area.style.border = '1px solid #add8e6'
 
+        }
+
+        function leave() {
+            area.innerText ='You leaved your mouse'
+            area.style.border = '1px solid #f08080'
         }
     </script>
 </body>

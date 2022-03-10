@@ -1,10 +1,2 @@
-var area = window.document.getElementById('area')
+// The script is in the html file 
 
-function click () {
-    area.innerText = 'You have clicked!'
-}
-
-function entrar() {
-    area.innerText = 'Entrou'
-
-}
