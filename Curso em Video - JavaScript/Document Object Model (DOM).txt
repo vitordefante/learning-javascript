@@ -2,3 +2,5 @@ O que é o DOM?
 
 DOM é um acrônimo para "Document Objet model", que sao os objetos que representam a estrutura
 e o conteúdo de um documento na web.
+
+Eventos DOM
