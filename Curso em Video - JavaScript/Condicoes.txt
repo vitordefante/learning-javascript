@@ -1,0 +1,9 @@
+Estruturas condicionais 🎯
+
+Exemplo da sintaxe:
+
+if (condicao) {
+	acao1 = true }
+
+else {
+	acao2 = true }
