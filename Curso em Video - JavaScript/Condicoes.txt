@@ -1,15 +1,15 @@
 Estruturas condicionais 🎯
 
-Exemplo da sintaxe:
 
+Exemplo da sintaxe:
 if (condicao) {
 	acao1 = true }
 
 else {
 	acao2 = true }
 
-Condicoes Aninhadas 🐓
 
+Condicoes Aninhadas 🐓
 if (condicao) {
 	acao1 = true
 }
@@ -20,7 +20,9 @@ else {
 	}
 }
 
+
 Condicoes Multiplas 🖐
+As condicoes multiplas precisam de um break ao fim de cada bloco.
 
 swich (expressao) {
 	case valor1:
