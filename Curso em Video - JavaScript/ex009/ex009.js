@@ -39,3 +39,9 @@ function datetime1() {
 }
 
 datetime1()
+
+/* 
+ * Transformar o mes de numero pra dia escrito.
+
+ * Criar uma variavel com uma string contendo o formato de data do site, e fazer ela aparecer no html.
+*/
