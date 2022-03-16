@@ -4,6 +4,10 @@
 https://dribbble.com/signup/new
 */
 
+:root {
+    --main-txt-color: rgba(224, 224, 224, 0.856);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -29,14 +33,13 @@ body {
 #wrapper {
     z-index: 1;
 
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 
     background: rgba(189, 189, 189, 0.08);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
-    backdrop-filter: blur(1.9px);
-    -webkit-backdrop-filter: blur(1.9px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.178);
+    backdrop-filter: blur(1.7px);
+    -webkit-backdrop-filter: blur(1.7px);
     padding: 15px;
 }
 
@@ -53,24 +56,17 @@ body {
 
 #time {
     text-align: center;
-    color: rgba(231, 231, 231, 0.938);
-    
-    font-size: 56px;
+    color: var(--main-txt-color);
+    margin-bottom: 10px;
+    font-size: 66px;
+    font-weight: 500;
     
 }
 
 #dia-semana {
     text-align: center;
-    color: rgba(236, 236, 236, 0.938);
+    color: var(--main-txt-color);
     font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 4px;
-}
-
-#dia-mes {
-    text-align: center;
-    color: rgba(236, 236, 236, 0.938);
-    font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 4px;
 }
