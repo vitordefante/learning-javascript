@@ -7,3 +7,24 @@ if (condicao) {
 
 else {
 	acao2 = true }
+
+Condicoes Aninhadas 🐓
+
+if (condicao) {
+	acao1 = true
+}
+
+else {
+	if (condicao) {
+		funcao()
+	}
+}
+
+Condicoes Multiplas 🖐
+
+swich (expressao) {
+	case valor1:
+	 function()
+	 break
+}
+
