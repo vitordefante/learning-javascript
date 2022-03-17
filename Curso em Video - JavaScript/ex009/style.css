@@ -19,7 +19,8 @@ https://dribbble.com/signup/new
 body {
     width: 100vw;
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1545243524-6beb8e793aba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1928&q=80');
+    background: url('https://images.unsplash.com/photo-1517866761205-78588fc92752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2490&q=80');
+    background-color: #02203b;
 
     background-size: cover;
     background-position: center center;
@@ -33,14 +34,19 @@ body {
 #wrapper {
     z-index: 1;
 
-    width: 100%;
-    height: 100%;
-
-    background: rgba(189, 189, 189, 0.08);
+    width: 400px;
+    height: 300px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    background: rgba(167, 167, 167, 0.068);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.178);
     backdrop-filter: blur(1.7px);
     -webkit-backdrop-filter: blur(1.7px);
     padding: 15px;
+}
+
+#wrapper:hover {
+    cursor: default;
 }
 
 #date-time {
@@ -57,7 +63,7 @@ body {
 #time {
     text-align: center;
     color: var(--main-txt-color);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 66px;
     font-weight: 500;
     
@@ -70,3 +76,4 @@ body {
     font-weight: 300;
     margin-bottom: 4px;
 }
+
