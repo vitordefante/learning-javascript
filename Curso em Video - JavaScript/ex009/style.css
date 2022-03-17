@@ -6,6 +6,7 @@ https://dribbble.com/signup/new
 
 :root {
     --main-txt-color: rgba(224, 224, 224, 0.856);
+    --black-txt-color: rgb(37, 37, 37);
 }
 
 * {
@@ -20,7 +21,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1517866761205-78588fc92752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2490&q=80');
-    background-color: #02203b;
+    background-color: white;
 
     background-size: cover;
     background-position: center center;
@@ -29,6 +30,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: 1.5s ease;
+
+    overflow: hidden;
 }
 
 #wrapper {
@@ -64,8 +69,10 @@ body {
     text-align: center;
     color: var(--main-txt-color);
     margin-bottom: 15px;
-    font-size: 66px;
+    font-size: 69px;
     font-weight: 500;
+    text-shadow: 4px 4px 7px rgba(53, 53, 53, 0.61);
+
     
 }
 
@@ -75,5 +82,11 @@ body {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 4px;
+    text-shadow: 4px 4px 7px rgb(0, 0, 0);
 }
 
+@media (max-width:410px) {
+    #wrapper {
+        width: 86%;
+    }
+}

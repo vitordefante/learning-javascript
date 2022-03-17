@@ -1,18 +1,28 @@
 
 function datetime1() {
     var agora = new Date()
-    var diasem = agora.getDay()
-    var mes = agora.getUTCMonth()
-    var ano = agora.getFullYear()
-    var horas = agora.getHours()
-    var minutos = agora.getMinutes()
-    var diames = agora.getDate()
+    var diasem = agora.getDay() //dia da semana
+    var mes = agora.getUTCMonth() // mes
+    var ano = agora.getFullYear() // ano
+    var horas = agora.getHours() // horas
+    var minutos = agora.getMinutes() //minutos
+    var diames = agora.getDate() // dia do mes
 
-    var timeinpage = window.document.getElementById('time')
-    var todayinfopage = window.document.getElementById('dia-semana')
+    var timeinpage = window.document.getElementById('time') // Elemento onde mostra as horas na pagina
+    var todayinfopage = window.document.getElementById('dia-semana') // Elemento onde mostra as informacoes do dia na pagina
 
+    var morning = 'images/Morning 3.jpg'
+    var afternoon = 'images/Afternoon 3.jpg'
+    var night = 'images/Night.jpg' 
 
-    
+    if (horas >= 6 && horas < 13) {
+        document.body.style.backgroundImage = `url('${morning}')`
+    } else if (horas >= 13 && horas < 18) {
+        document.body.style.backgroundImage = `url('${afternoon}')`
+    } else {
+        document.body.style.backgroundImage = `url('${night}')`
+    }
+
     switch(diasem) {
         case 0:
             diasem = 'Domingo'
@@ -87,8 +97,6 @@ function datetime1() {
 
     timeinpage.innerText = currenttime
     todayinfopage.innerText = todayinfo
-
-    console.log(todayinfo)
 }
 
 datetime1()
