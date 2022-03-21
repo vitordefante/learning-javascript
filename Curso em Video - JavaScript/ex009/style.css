@@ -82,7 +82,7 @@ body {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 4px;
-    text-shadow: 4px 4px 7px rgb(0, 0, 0);
+    text-shadow: 4px 4px 7px rgba(29, 29, 29, 0.747);
 }
 
 @media (max-width:410px) {
