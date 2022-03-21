@@ -6,6 +6,3 @@ Exemplo:
 
 var nome = "Joao"
 console.log(`Parabens ${nome}, tenha um otimo dia!`)
-
-
-
