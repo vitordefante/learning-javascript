@@ -57,7 +57,6 @@ a < b || b < a == true
 a > b || b < a == false 
 
 
-
 Operadores ternarios ➰
 Os operadores ternarios identificam se a determinada condicao e verdadeira, caso seja, aplica um resultado, caso nao, aplica outro.
 Os operadores sao:
@@ -79,5 +78,3 @@ Ordem de precedencia durante uma expressao com operadores:
     1. !
     2. &&
     3. ||
-
-

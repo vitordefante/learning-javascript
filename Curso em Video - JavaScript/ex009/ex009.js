@@ -8,6 +8,7 @@ function datetime1() {
     var minutos = agora.getMinutes() //minutos
     var diames = agora.getDate() // dia do mes
 
+
     var timeinpage = window.document.getElementById('time') // Elemento onde mostra as horas na pagina
     var todayinfopage = window.document.getElementById('dia-semana') // Elemento onde mostra as informacoes do dia na pagina
 
@@ -100,7 +101,3 @@ function datetime1() {
 }
 
 datetime1()
-
-/* 
- * Fazer com que as imagens de fundo mudem de acordo com o horario.
-*/
