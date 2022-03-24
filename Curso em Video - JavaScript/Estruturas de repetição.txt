@@ -20,4 +20,19 @@ do {
 O loop do while executa o código primeiro, e na saída verifica a condição, caso seja verdadeira, itera sob o loop novamente, até que a condição seja falsa.
 
 
+for loop
+
+o for loop normalmente tem dentro de parênteses 3 itens, a inicialização, o teste lógido / de validação, e o incremento.
+exemplo de sintaxe:
+
+for (variavel; condiçao; incremento>) {
+    codigo()
+}
+
+também entende-se por:
+
+for (var c = 0; c <= 5; c++) {
+    codigo()
+}
+
 " The while loop is also known as the entry-controlled and pre-checking loop because in this loop, the body of the loop is executed prior to checking the condition. Conversely, the alternate name for the do-while loop is the exit-controlled and post-checking loop, the reason behind this is that the checking of the loop condition is followed by the execution of the body of the loop." -Source: techdifferences.com
