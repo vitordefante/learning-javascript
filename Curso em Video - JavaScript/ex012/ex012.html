@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ex012.css">
+    <script src="ex012.js"></script>
     <title>Contador</title>
 </head>
 <body>
     <div id="wrapper">
         <h1 id="title">Contador</h1>
-        <div id="inputs">
+
+        <div id="inputs">    
             <label for="inicio">
-                Inicio <input name="inicio" id="inicio" type="number">
+                <div class="icon-div">Inicio <img class="icons" src="images/makefg.png" alt=""></div> <input name="inicio" id="inicio" type="number">
             </label>
-
             <label for="fim">
-                Fim <input type="number" id="fim" name="fim">
+                <div class="icon-div">Fim <img class="icons" src="images/stop.png" alt="" class="icon-div"></div> <input type="number" id="fim" name="fim">
             </label>
-
             <label for="passo">
-                Passo <input type="number" name="passo" id="passo">
+                <div class="icon-div">Passo <img class="icons" src="images/step2.png" alt=""></div><input type="number" name="passo" id="passo">
             </label>
         </div>
+
+        <button onclick="contar()" value="Contar" type="button" id="button1" name="button1">
+            Efetuar Contagem
+        </button>
+
+        <p id="contagem">
+        </p>
 
     </div>
 </body>

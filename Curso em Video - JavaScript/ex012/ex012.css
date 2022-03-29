@@ -14,8 +14,7 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 
     background-color: #121212;
 
@@ -25,10 +24,8 @@ body {
 }
 
 #wrapper {
-    height: 85vh;
-    width: 50vw;
-    padding: 15px;
-    border: 1px solid white;
+    height: 100%;
+    width: 650px;
 }
 
 #title, #title:hover {
@@ -40,27 +37,73 @@ body {
     cursor: default;
     font-size: 22px;
     font-weight: 400;
-  
 }
 
 #inputs {
-    margin-top: 30px;
-
-    border: 1px solid salmon;
-
+    width: 70%;
+    margin: 30px auto 20px auto;
     display: flex;
     flex-direction: row;
-
-    justify-content: flex-start;
-    
+    justify-content: space-between;
 }
 
 input {
+    width: 100%;
     padding-left: 10px;
     border: 1px solid var(--default-text);
     height: 30px;
-    width: 150px;
-    margin: 15px 5px;
+    margin-top: 10px;
     background-color: #121212;
     display: block;
+}
+
+#button1 {
+    background-color: #121212;
+    color: var(--default-text);
+    border: 1px solid var(--default-text);
+    font-weight: 500;
+    display: block;
+    width: 180px;
+    height: 38px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button1:hover {
+    color: #121212;
+    background-color: var(--default-text);
+}
+
+#button1:active {
+    transform: scale(1.01);
+}
+
+label {
+    margin: 0px 10px;
+    display: block;
+}
+
+#contagem {
+    line-height: 1.7;
+    margin-top: 95px;
+    padding: 10px;
+    letter-spacing: 1.9px;
+    text-align: center;
+    cursor: default;
+}
+
+.icons {
+    width: 18px;
+    display: inline;
+    margin-left: 6px;
+    opacity: 0.8;
+}
+
+.icon-div {
+    display: flex;
+    align-items: center;
+}
+
+::selection {
+    background-color: var(--default-text);
 }
