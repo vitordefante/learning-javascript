@@ -12,10 +12,43 @@ function contar() {
        let i = Number(ini.value)
        let f = Number(fim.value)
        let p = Number(passo.value)
-        
-       for (c = i; c <= f; c += p) {
-           contspace.innerHTML += `${c} 👉🏻 `
+
+       
+
+       if (p == 0) {
+        null        
        }
+
+       else if (p < 0) {
+           p *= -1
+       }
+
+       else if (i > f) {
+        for (var c = i; c >= f; c -= p) {
+            if (c % 1 != 0){
+                c = parseFloat(c)
+                contspace.innerHTML += `${c.toFixed(2)} 👉🏻 `
+            }
+            else{
+                c = parseInt(c)
+                contspace.innerHTML += `${c} 👉🏻 `
+            }
+            
+        }
+       } 
+        else{
+            for (var c = i; c <= f; c += p) {
+                if (c % 1 !== 0) {
+                    c = parseFloat(c)
+                    contspace.innerHTML += `${c.toFixed(2)} 👉🏻 `
+                } else {
+                    c = parseInt(c)
+                    contspace.innerHTML += `${c} 👉🏻 `
+                }
+                
+            }
+        }
+       
 
        contspace.innerHTML += '🏁'
     }
