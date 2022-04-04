@@ -52,4 +52,6 @@ function contar() {
 
        contspace.innerHTML += '🏁'
     }
+
+
 }
