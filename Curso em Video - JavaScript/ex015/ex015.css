@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+/* Number input arrows remover */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+:root {
+    --main-text-color: #E8EAED;
+    --main-bg-color: #121212;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Fira Code', monospace;
+    color: #E8EAED;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121212;
+}
+
+#wrapper {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #121212;
+    padding: 10px;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#inputdiv {
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#label1 {
+    text-align: center;
+}
+
+#buttoninput {
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid var(--main-text-color);
+    width: auto;
+    margin-top: 5px;
+}
+
+#numero {
+    background-color: transparent;
+    color: var(--main-text-color);
+
+    padding-left: 8px;
+
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: 2px solid var(--main-text-color);
+
+    width: 100%;
+    height: 30px;    
+}
+
+#button1 {
+    display: inline;
+    color: var(--main-text-color);
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+#button1:active {
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+}
+
+#button1:focus {
+    box-shadow: inset 0 0 0 2.5px #0e62c9;
+
+}

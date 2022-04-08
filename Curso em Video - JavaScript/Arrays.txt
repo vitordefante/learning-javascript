@@ -1,0 +1,14 @@
+Um array é uma variável que possui varios elementos, cada elemtno possue um chave, que indexa o valor ela contém.
+
+Para declarar um array, a sintaxe adequada é criar um elemento entre colchetes, por exemplo:
+
+var nomes = ['Joao', 'Pedro']
+
+Os arrays possuem um índice para cada elemento, no qual o primeiro é representado pelo indice 0.
+Exemplo:
+
+console.log(nomes[0])
+
+output:
+Joao
+

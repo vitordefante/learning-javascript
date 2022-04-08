@@ -1,0 +1,13 @@
+As funçōes em JavaScript sao blocos de códigos que são executados quando chamadas, havendo ou nao um parametro.
+Exemplo de sintaxe:
+
+function function_name(params) {
+    code()
+}
+
+function soma(n1, n2) {
+    return n1 + n2
+}
+
+Uma funcao recebe um nome, parametros (opcionais), um valor pré determinado para os parametros, e o codigo a ser exeutado. 
+As atividades de uma funçao também podem ser descritas em algumas etapas: Chamada, parametros, ação e retorno.

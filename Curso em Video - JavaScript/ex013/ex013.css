@@ -40,6 +40,7 @@ input {
     min-height: 30px;
     color: var(--default-text);
     padding-left: 6px;
+    cursor: default;
 }
 
 button {
@@ -47,6 +48,7 @@ button {
     color: var(--default-text);
     border: 2px solid var(--default-text);
     min-height: 30px;
+    cursor: pointer;
 }
 
 button:active {
@@ -93,4 +95,8 @@ button:active {
         color: var(--default-text);
 
     }
+}
+
+::selection {
+    background-color: rgba(255, 166, 0, 0.534);
 }
