@@ -14,6 +14,7 @@ input[type=number] {
 :root {
     --main-text-color: #E8EAED;
     --main-bg-color: #121212;
+    --highlight-color: orange;
 }
 
 * {
@@ -45,6 +46,8 @@ body {
 
     margin-top: 20px;
     margin-bottom: 30px;
+
+    cursor: default;
 }
 
 #inputdiv {
@@ -67,6 +70,7 @@ body {
     border: 2px solid var(--main-text-color);
     width: auto;
     margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 #numero {
@@ -92,14 +96,75 @@ body {
     height: 30px;
     padding: 5px;
     font-weight: 500;
+    cursor: pointer;
 }
 
-#button1:active {
+#button1:hover, #finalizar:hover {
     background-color: var(--main-text-color);
     color: var(--main-bg-color);
 }
 
-#button1:focus {
-    box-shadow: inset 0 0 0 2.5px #0e62c9;
+#button1:active, #finalizar:active {
+    border: 2px solid var(--highlight-color);
+}
 
+#added-numbers {
+    margin: auto auto 25px auto;
+    max-width: 302px;
+}
+
+ul {
+    margin: auto auto 10px auto;
+    max-width: 300px;
+    height: 200px;
+
+    list-style-type: none;
+    border: 2px solid var(--main-text-color);
+    padding: 5px;
+
+    overflow-y: auto;
+}
+
+li {
+    cursor: default;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+li:hover {
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+}
+
+#finalizar {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+
+    border: 2px solid var(--main-text-color);
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#res {
+    max-width: 302px;
+    margin: auto;
+}
+
+.res-text {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#insira {
+    color: rgb(255, 126, 126);
+}
+
+#numres {
+    color: var(--highlight-color);
 }
