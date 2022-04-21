@@ -1,0 +1,21 @@
+Variable is labeling data in a programming language. JavaScript provides eight different data types, which are:
+undefined, null, boolean, string, symbol, bigint, number and object.
+
+var, let and const.
+
+var declarations can be overwritten easily in the code, for example:
+
+var name = "Robert"
+var name = "Ana"
+
+The variable assignment that will be made is Ana. For larger codebases, this might be a problem, because this does not return an error, and can still be an unwanted behavior.
+
+This problem is solved by using the let declaration, which will return an error if a variable is to be declared with the same name as another.      
+
+const are the "read only" type of variables. They are immutable, and it's value is constant, for example:
+
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+
+This code will return an error. It is common practice to assign const/immutable variables in UPPERCASE in JavaScript, camelCase and lowercase are usually for mutable variables.
+ 

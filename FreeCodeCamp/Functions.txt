@@ -1,0 +1,20 @@
+In JavaScript, we can write reusable codes using functions.
+
+Global Scope:
+Variables that are declared outside of function have global scope, they can be seen and used anywhere in the code. That's why it's recommended to always use let and const in the variables, because it limits the mutability of the variables and prevent unexpected behavior in the execution.
+
+
+Local Scope:
+Variables that are declared inside a function can only be used within the function, as well as it's parameters.
+
+
+Global vs. Local scope in functions:
+If a global variable is declared again inside of a function, the value in the function will prevail. Example:
+
+let myGlobal = "foo";
+function scopeTest() {
+    myGlobal = "foo2";
+    return myGlobal;
+}
+
+In the code above, the string foo2 will be returned.

@@ -1,0 +1,29 @@
+A funcion is executed from top to bottom, the deveolper will want to be careful of what statement comes first, here is two examples:
+
+function foo(x) {
+    if (x < 1) {
+        reutrn "Less than one."
+    } 
+    else if (x < 2) {
+        return "Less than two."
+    }
+    else {
+        reutrn "Greater than or equal two."
+    }
+} // This function will return less than one if 0 is the argument.
+
+// In the next one, we'll just change the order of the statements.
+
+function bar(x) {
+    if (x < 2) {
+        return "Less than two."
+    }
+    else if (x < 1) {
+        return "Less than one."
+    }
+    else {
+        return "Greater than or equal to two."
+    } // This function will return less than two if 0 is the argument.
+}
+
+This happens because the first condition satisfied (that returns true) will be executed, and since it's a chain with else if (only one of the conditions will be executed when satisfied) the first one will be the only.

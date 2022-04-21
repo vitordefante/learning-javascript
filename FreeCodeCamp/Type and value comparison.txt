@@ -1,0 +1,19 @@
+In order to compare values in JavaScript we use the comparison operator "=="
+It tries to convert the two values to a common type in order to compare only the values, giving less importante to it's type. Example:
+'1' == 1 // true
+true
+
+Unlike the strict equality comparison "===" that does not try to convert the values to the same type. Example:
+
+'1' === 1 // false
+
+There are the inequality operator and it's strict version as well. They are respectively the logical opposite of the two operator previously mentioned. Examples:
+Inequality operator:
+1 != '1' // false
+1 != 2 // true
+1 != 3 // true
+Strict inequality  operator:
+1 !== '1' // true
+...
+
+One thing to note is that every comparison operator always return true or false.

@@ -1,0 +1,8 @@
+As I've previously learned, arrays are a type of variable that store multiple values.
+
+- The function array.pop() remove the element from the last index of an array and returns the element.
+- The opposite happens when you use shift(), that removes and returns the element of the first index.
+
+
+- The function push() appends an element to the last index of the array.
+- The opposite happens when you use unshift(), that puts an element in the first index.
