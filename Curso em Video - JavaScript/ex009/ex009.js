@@ -1,11 +1,10 @@
-
 function datetime1() {
     var agora = new Date()
-    var diasem = agora.getDay() //dia da semana
+    var diasem = agora.getDay() // dia da semana
     var mes = agora.getUTCMonth() // mes
     var ano = agora.getFullYear() // ano
     var horas = agora.getHours() // horas
-    var minutos = agora.getMinutes() //minutos
+    var minutos = agora.getMinutes() // minutos
     var diames = agora.getDate() // dia do mes
 
 
