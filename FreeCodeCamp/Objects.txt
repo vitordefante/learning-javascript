@@ -1,12 +1,13 @@
 In JavaScript objects you can store data in a way you can index data the way you prefer. The data is accessed through what are called properties.
+As the example:
 
-As the example: 
 const cat = {
     "name": "Whiskers",
     "legs": 4,
     "tails": 1,
     "enemies":["Water", "Dogs"]
 }
+
 
 In the example above, all properties are strings, but you can even store data in number, and ommit the quotes is the property only has a single word.
 As the example:
@@ -16,6 +17,7 @@ const stuff = {
     car: "WV Golf",
     "year": "2018"
 }
+
 
 You can access a object property using dot notation or bracket notation. You usually use dot when you know the property name ahead of time. As for the bracket notation, you usually use when the property has a spaced name with more than 1 word.
 As the example:
@@ -31,11 +33,11 @@ myAge = me.age
 myName = me["name"]
 myAge = me["age"]
 
+
 Note that you need to use quotes in order to assign, read or access a property even if it does not have quotes in the object. Properties assigned with no quotes in the object will be automatically converted as strings by JavaScript.
 
 You can use bracket and dot notation to reassign values of the object as well.
 As the example:
-
 
 me.age = 22
 me["age"] = 22

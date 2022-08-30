@@ -1,0 +1,26 @@
+If you want to create a single use case function, or create one to serve as parameter to other functions, you can use an Arrow Function. A cleaner and more simple way to write a function, you don't even need to name it.
+
+The common syntax for this case is this:
+
+const myFunction = function() {
+    const myName = "Josh";
+    return myName;
+}
+
+With JavaScript ES6 we have the arrow function syntax:
+
+const myFunction = () => {
+    const myName = "Josh";
+    return myName;
+}
+
+You can omit the keyword value if there is no function body, simplifying even more the code.
+As the example:
+
+const myFunction = () => "Josh";
+
+More examples:
+
+const myMultiplier = (num, mul) => num * mul;
+
+myMultiplier(1, 2) should return 2.

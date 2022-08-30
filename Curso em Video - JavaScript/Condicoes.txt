@@ -3,10 +3,10 @@ Estruturas condicionais 🎯
 
 Exemplo da sintaxe:
 if (condicao) {
-	acao1 = true }
+	acao1 = undefined }
 
 else {
-	acao2 = true }
+	acao2 = undefined }
 
 
 Condicoes Aninhadas 🐓

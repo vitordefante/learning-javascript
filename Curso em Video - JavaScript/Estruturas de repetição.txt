@@ -25,7 +25,7 @@ for loop
 o for loop normalmente tem dentro de parênteses 3 itens, a inicialização, o teste lógido / de validação, e o incremento.
 exemplo de sintaxe:
 
-for (variavel; condiçao; incremento>) {
+for (variavel de controle; condiçao; incremento/decremento) {
     codigo()
 }
 
