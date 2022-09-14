@@ -1,0 +1,33 @@
+Regex (Regular expressions) are used to match or find parts of strings. JS have many ways to use regex, one way is to use the .test() method. It takes the regex and applies it to a string, that you need to put in the parenthesis , it returns true or false, if it finds the word in the string or not.
+
+As the example:
+let myString =  "I am texting regex :)";
+ley mySecondString = "This is a secondary string";
+let myRegex = /:)/;
+
+let result = myRegex.test(myString); // true
+let result = myRegex.test(mySecondString); // false
+
+Basically the test method search the string variable in the parenthesis string, it returns true if the string is found within the parenthesis string, and false if not.
+
+
+You can use the OR operator ( | ) to find more than one pattern in a given string.
+As The example:
+const myString = "dog, cat, fish, bird";
+const myRegex = / dog|cat|fish|bird /; // true
+
+
+You can ignore while testing a regex using the flag /i.
+As the example:
+let myString = "ILOVEDOGS";
+let myRegex = /iLoveDogs/i;
+let result = myRegex.test(myString); // true
+
+
+The Wildcard Period
+You can use a period in a regex to match any character.
+As the example:
+
+let myString = "Dog, dig, dagger.";
+ley myRegex = /d[aeiou]g/gi;
+let result = myRegex.test(myString); // true
