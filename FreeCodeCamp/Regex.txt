@@ -31,3 +31,10 @@ As the example:
 let myString = "Dog, dig, dagger.";
 ley myRegex = /d[aeiou]g/gi;
 let result = myRegex.test(myString); // true
+
+
+Matching repeating characters with "+" sign
+let myString = "Wassup";
+ley myRegex = /s+/;
+console.log(myString.match(myRegex)); // ["ss"];
+
