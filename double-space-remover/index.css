@@ -25,6 +25,7 @@ h2 {
 
 #input-div {
     margin:  15px auto 10px auto;
+    
 }
 
 #text-button {
@@ -42,7 +43,7 @@ h2 {
     text-align: left;
 
     width: 100%;
-    height: 500px;
+    height: 63vh;
 }
 
 button {
@@ -63,4 +64,11 @@ button:hover {
 button:active {
     transform: scale(1.02);
     transition: 0.1s;
+}
+
+@media (max-width: 675px) {
+    #text-button {
+        width: 85%;
+    }
+    
 }
