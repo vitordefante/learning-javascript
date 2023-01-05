@@ -1,2 +1,2 @@
 # learning-javascript
-Documenting my JavaScript learning process.
+Documenting my JavaScript and web development learning process.
