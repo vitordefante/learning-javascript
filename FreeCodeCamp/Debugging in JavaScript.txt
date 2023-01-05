@@ -1,0 +1,5 @@
+To debug code in JavaScript, one of the most useful tools you can use is the console.log() method,  the "prints" the values in the parenthesis in the browser console. When you know how to use it, coding it in the right place in the code, it can help a lot when trying to find bugs in the code.
+
+Another useful thing to use is the typeof() operator, it returns a string indicating the type of the operand data/value.
+
+Always check out for typos thay may be causing errors in the code.
