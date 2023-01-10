@@ -2,3 +2,7 @@
  * Dive deeper in the Object Oriented Paradigm using JS.
 
  JavaScript recognizes seven primitive (mmutable) data tyes: Boolean, Null, Undefined, Number, String, Symbol and BigInt. Object is the only type for mutable items.
+
+ pop() removes an element from the END of an array, while shift() removes from the beginning.
+
+ Make more in-depth use of GPTCHAT.

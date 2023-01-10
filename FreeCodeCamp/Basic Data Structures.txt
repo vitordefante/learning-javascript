@@ -1,0 +1,17 @@
+JavaScript basic data structures.
+
+The slice() method.
+The slice method extracts a given number of elements of an array. It takes to parameters, one is for the array's index to start the extraction, and the other is the array to stop the extraction, not including the data at this specified index.
+
+As the example:
+
+var names = ["John", "Mary", "Marta", "Joseph", "Alex"];
+
+var slicedNames = names.slice(1,4);
+console.log(slicedNames) // logs: ["Mary", "Marta", "Joseph"];
+
+Copying an array.
+
+Isn't it as easy as using "=" ?
+R: Not really, doing like this you are referencing values, and not acually copying it in another adress in memory. That's why we gonna learn some other ways down below.
+

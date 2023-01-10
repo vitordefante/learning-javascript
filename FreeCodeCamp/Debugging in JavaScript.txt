@@ -3,3 +3,5 @@ To debug code in JavaScript, one of the most useful tools you can use is the con
 Another useful thing to use is the typeof() operator, it returns a string indicating the type of the operand data/value.
 
 Always check out for typos thay may be causing errors in the code.
+
+Watch out for infinite loops in the code.
