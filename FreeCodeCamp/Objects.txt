@@ -26,8 +26,8 @@ const me = {
     name: "Vitor",
     age: 21
 } /* Dot notation */
-myName = me.name
-myAge = me.age
+const myName = me.name
+const myAge = me.age
 
 /* Bracket notation */
 myName = me["name"]

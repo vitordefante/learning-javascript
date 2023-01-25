@@ -1,0 +1,41 @@
+Defining a constructor function.
+
+Constructor are functions that create new objects. They define rhe properties and the behaviors that will belong to the new object. Just like a blueprint for creation of new objects. Here's a few conventions to follow when creating a constructor:
+
+Example: function Shark() {
+    this.name = "James";
+    this.color = "Blue";
+    this.numLegs = 0;
+}
+
+1. Constructors are defined with capitalized name to distinguish from other functions that aren't constructors.
+
+2. Constructors use the keyword 'this' to set properties of the object they will create. Inside the constructor, 'this' refers to the new object it will create.
+
+3. Constructors define properties and behaviors instead of returning a value as other functions might.
+
+
+
+
+Using 'new' operator.
+
+function Bird() {
+    this.name = "Albert";
+    this.color  = "blue";
+    this.numLegs = 2;
+  }
+  
+  let blueBird = new Bird();
+
+It is used when calling a constructor. This tells JavaScript to create a new instance of Bird called blueBird. Without the new operator, 'this' inside the constructor would not point to the newly created object, giving unexpected results. Now blueBird has all the properties defined inside the Bird constructor.
+
+Anytime a constructor function created a new object, that object is said to be an instance of its constructor. You can use thet 'instanceof' operator, that let you check if compare a obcject to a constructor, returning true of false based on whether or not that obcject was created with the constructor. Here's an example:
+
+let Bird = function(name, color) {
+    this.name = name;
+    this.color = color;
+    this.numLegs = 2;
+}
+
+let crow = new Bird("Alexis", "black");
+crow instanceof Bird; // true;

@@ -1,5 +1,6 @@
  * Dive deeper in the JavaScript switch loop.
  * Dive deeper in the Object Oriented Paradigm using JS.
+ * Dive deeper in IIFE's (Immediatly Invoked Function Expressions);
 
  JavaScript recognizes seven primitive (mmutable) data tyes: Boolean, Null, Undefined, Number, String, Symbol and BigInt. Object is the only type for mutable items.
 

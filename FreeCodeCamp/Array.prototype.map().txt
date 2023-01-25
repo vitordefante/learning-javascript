@@ -1,0 +1,19 @@
+The .map() will apply a callback function to every item in the passed array and create a new array with the results.
+
+Syntax:
+
+With arrow functions:
+map((element) => {
+    ...
+})
+
+With callback functions:
+map(callbackFn)
+map(callbackFn, thisArg)
+
+With inline callbacks:
+map(function (element) {
+
+})
+
+.map() method will not work in values that are not integer-keyed properties. For example simple 1 dimentional objects.

@@ -1,0 +1,3 @@
+Style of programming where solutions are simple, isolated functions without any side effects outside the function scope. INPUT -> PROCESS -> OUTPUT.
+
+Awalys try to do pure and immutable functions that not change the original code or variables outiste it's scope, this way you avoid bugs and side effects. When a function depends on a variable or object being present, declare it directly in the function, as parameters or arguments.

@@ -1,0 +1,15 @@
+The filter() method creates a shallow copy of an array and return it with the values that passed as true in the function.
+
+As the example:
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6); 
+console.log(result) // will only log words with 6 or more letters.
+
+Syntax:
+
+// Arrow function
+.filter((element) => {...});
+
+// Callback function
+.filter(callbackFn);

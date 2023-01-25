@@ -6,5 +6,4 @@ function spaceRemover() {
 
     var nospace = usertxt1.replace(/\s\s+/g, ' ');
     usertxt.value = nospace;
-
 }

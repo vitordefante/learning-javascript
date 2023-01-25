@@ -18,3 +18,9 @@ function scopeTest() {
 }
 
 In the code above, the string foo2 will be returned.
+
+If you need an x number of parameters to be applied at a function, you can use spread notation, as the example:
+
+function includesNumber(arr, ...args) {
+    const argsList = [args];
+} // this way the arguments are stored inside an array assigned to a variable.
