@@ -1,7 +1,7 @@
 # 📚learning-javascript
 Documenting my JavaScript and web development learning process.
 
-Welcome to my JavaScript Learning Repository! This repository serves as a documentation of my journey in learning JavaScript, where I store all the course files, small projects, and valuable learning notes, all **course related**, you can find any separated projects in **other repositories in my GitHub page**.
+Welcome to my JavaScript Learning Repository! This repository serves as a documentation of my journey in learning JavaScript, where I store all the course files, small projects, and valuable learning notes. **This is mostly course related**, I have many other projects I made myself that you can find in **other repositories in my GitHub page**.
 
 ## 📁 Courses
 Here are the course materials I have completed during my JavaScript learning. Each course includes its own set of exercises (**there are a LOT of practical exercises I made my own**) and examples that have helped me deepen my understanding of the language. Here are some of the courses I've completed so far:
